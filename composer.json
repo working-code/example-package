@@ -1,0 +1,18 @@
+{
+    "name": "working-code/example-package",
+    "description": "example composer package",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "WorkingCode\\ExamplePackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "galushka.vp@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    }
+}
